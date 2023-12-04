@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" type="image/jpg" href="./images/donut.png"/>
+    <script src="https://kit.fontawesome.com/85ce63ab70.js" crossorigin="anonymous"></script>
+    <title>Steve Willsmore - JavaScript Project 1</title>
+</head>
+<body>
+
+	<header id="header">
+        <div class="headerFlex wrapper">
+            <div class="imageContainer">
+                <img src="./images/logo_simpsons.png" alt="The Simpsons Logo">
+            </div>
+            <h1>Trivia Quiz</h1>
+            <p>Each correct answer wins you 1 donut!</p>
+            <p>If you guess incorrectly, you lose a donut.</p>
+            <p>Click on the donut below to play!</p>
+            <a href="#q1"><img src="./images/donut.png" alt="A pink donut with sprinkles" class="clickToPlay"></a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="q1" class="wrapper sectionFlex question1">
+            <div class="questionContainer blue">
+                <h2>Question 1</h2>
+                <h3>What is the name of the town where The Simpsons live?</h3>
+                <div class="buttonFlex">
+                    <button id="q1A" class="q1Button buttonHover"><span>North Haverbrook</span></button>
+                    <button id="q1B" class="q1Button buttonHover"><span>Springfield</span></button>
+                    <button id="q1C" class="q1Button buttonHover"><span>Shelbyville</span></button>
+                    <button id="q1D" class="q1Button buttonHover"><span>Ogdenville</span></button>
+                </div>
+                <a href="#q2"><i class="far fa-arrow-alt-circle-down goTo2"></i></a>
+            </div>
+            
+        </section>
+
+        <section id="q2" class="wrapper sectionFlex question2">
+            <div class="questionContainer pink">
+                <h2>Question 2</h2>
+                <h3>What instrument does Lisa play?</h3>
+                <div class="buttonFlex">
+                    <button id="q2A" class="q2Button buttonHover"><span>Piano</span></button>
+                    <button id="q2B" class="q2Button buttonHover"><span>Drums</span></button>
+                    <button id="q2C" class="q2Button buttonHover"><span>Trumpet</span></button>
+                    <button id="q2D" class="q2Button buttonHover"><span>Saxophone</span></button>
+                </div>
+                <a href="#q3"><i class="far fa-arrow-alt-circle-down goTo3"></i></a>
+            </div>
+        </section>
+
+        <section id="q3" class="wrapper sectionFlex question3">
+            <div class="questionContainer orange">
+                <h2>Question 3</h2>
+                <h2>What is Milhouse's surname?</h2>
+                <div class="buttonFlex">
+                    <button id="q3A" class="q3Button buttonHover"><span>Van Houten</span></button>
+                    <button id="q3B" class="q3Button buttonHover"><span>Van der Lind</span></button>
+                    <button id="q3C" class="q3Button buttonHover"><span>Houston</span></button>
+                    <button id="q3D" class="q3Button buttonHover"><span>Prince</span></button>
+                </div>
+                <a href="#q4"><i class="far fa-arrow-alt-circle-down goTo4"></i></a>
+            </div>
+            
+        </section>
+
+        <section id="q4" class="wrapper sectionFlex question4">
+            <div class="questionContainer green">
+                <h2>Question 4</h2>
+                <h3>What number on Evergreen Terrace do The Simpsons live?</h3>
+                <div class="buttonFlex">
+                    <button id="q4A" class="q4Button buttonHover"><span>274</span></button>
+                    <button id="q4B" class="q4Button buttonHover"><span>744</span></button>
+                    <button id="q4C" class="q4Button buttonHover"><span>247</span></button>
+                    <button id="q4D" class="q4Button buttonHover"><span>742</span></button>
+                </div>
+                <a href="#q5"><i class="far fa-arrow-alt-circle-down goTo5"></i></a>
+            </div>
+        </section>
+
+        <section id="q5" class="wrapper sectionFlex question5">
+            <div class="questionContainer blue">
+                <h2>Question 5</h2>
+                <h3>What colour is Homer's car?</h3>
+                <div class="buttonFlex">
+                    <button id="q5A" class="q5Button buttonHover"><span>Green</span></button>
+                    <button id="q5B" class="q5Button buttonHover"><span>Blue</span></button>
+                    <button id="q5C" class="q5Button buttonHover"><span>Pink</span></button>
+                    <button id="q5D" class="q5Button buttonHover"><span>Red</span></button>
+                </div>
+                <a href="#q6"><i class="far fa-arrow-alt-circle-down goTo6"></i></a>
+            </div>
+            
+        </section>
+
+        <section id="q6" class="wrapper sectionFlex question6">
+            <div class="questionContainer pink">
+                <h2>Question 6</h2>
+                <h3>Who is Homer's next door neighbour?</h3>
+                <div class="buttonFlex">
+                    <button id="q6A" class="q6Button buttonHover"><span>Ned Flanders</span></button>
+                    <button id="q6B" class="q6Button buttonHover"><span>Chief Wiggum</span></button>
+                    <button id="q6C" class="q6Button buttonHover"><span>Sideshow Bob</span></button>
+                    <button id="q6D" class="q6Button buttonHover"><span>Moe Szyslak</span></button>
+                </div>
+                <a href="#q7"><i class="far fa-arrow-alt-circle-down goTo7"></i></a>
+            </div>
+        </section>
+
+        <section id="q7" class="wrapper sectionFlex question7">
+            <div class="questionContainer orange">
+                <h2>Question 7</h2>
+                <h3>What was Maggie's first word?</h3>
+                <div class="buttonFlex">
+                    <button id="q7A" class="q7Button buttonHover"><span>Mommy</span></button>
+                    <button id="q7B" class="q7Button buttonHover"><span>Daddy</span></button>
+                    <button id="q7C" class="q7Button buttonHover"><span>Bart</span></button>
+                    <button id="q7D" class="q7Button buttonHover"><span>No</span></button>
+                </div>
+                <a href="#q8"><i class="far fa-arrow-alt-circle-down goTo8"></i></a>
+            </div>
+            
+        </section>
+
+        <section id="q8" class="wrapper sectionFlex question8">
+            <div class="questionContainer green">
+                <h2>Question 8</h2>
+                <h3>What is Homer's favourite drink?</h3>
+                <div class="buttonFlex">
+                    <button id="q8A" class="q8Button buttonHover"><span>Slushie</span></button>
+                    <button id="q8B" class="q8Button buttonHover"><span>Squishie</span></button>
+                    <button id="q8C" class="q8Button buttonHover"><span>Fudd Beer</span></button>
+                    <button id="q8D" class="q8Button buttonHover"><span>Duff Beer</span></button>
+                </div>
+                <a href="#q9"><i class="far fa-arrow-alt-circle-down goTo9"></i></a>
+            </div>
+        </section>
+
+        <section id="q9" class="wrapper sectionFlex question9">
+            <div class="questionContainer blue">
+                <h2>Question 9</h2>
+                <h3>What is the name of The Simpson's dog?</h3>
+                <div class="buttonFlex">
+                    <button id="q9A" class="q9Button buttonHover"><span>Frosty</span></button>
+                    <button id="q9B" class="q9Button buttonHover"><span>Santa's Little Elf</span></button>
+                    <button id="q9C" class="q9Button buttonHover"><span>Santa's Little Helper</span></button>
+                    <button id="q9D" class="q9Button buttonHover"><span>Snowball II</span></button>
+                </div>
+                <a href="#q10"><i class="far fa-arrow-alt-circle-down goTo10"></i></a>
+            </div> 
+        </section>
+
+        <section id="q10" class="wrapper sectionFlex question10">
+            <div class="questionContainer pink">
+                <h2>Question 10</h2>
+                <h3>What is Homer's middle name?</h3>
+                <div class="buttonFlex">
+                    <button id="q10A" class="q10Button buttonHover"><span>Jack</span></button>
+                    <button id="q10B" class="q10Button buttonHover"><span>Joe</span></button>
+                    <button id="q10C" class="q10Button buttonHover"><span>Jay</span></button>
+                    <button id="q10D" class="q10Button buttonHover"><span>Jake</span></button>
+                </div>
+                <p class="seeScoreboard"><a href="#scoreboard" class="goToScore">View your Final Score!</a></p>
+            </div>
+        </section>
+
+        <footer id="scoreboard" class="finalScore testFlex"> 
+            <p class="howDidYouDo">How did you do?</p>
+            <div class="wrapper footerFlex">
+                <div class="questionContainer blue scoreFlex">
+                    <h2>Total Donuts: <span class="score">0</span></h2>
+                    <h2>Wrong Guesses: <span class="wrongGuesses">0</span></h2>
+                    <h2>Final Grade: <span class="grade"></span></h2>
+                    <p>Click on the donut to play again!</p>
+                    <img src="./images/donut.png" alt="A pink donut with sprinkles" class="clickToPlayAgain">
+                </div>
+            </div>
+            <p class="junoLink">Created by Steve Willsmore at <a href="https://junocollege.com/" target="_blank">Juno College of Technology</a></p>
+        </footer>
+    
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
